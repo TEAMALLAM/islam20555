@@ -149,16 +149,18 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 
-     ____.  _____ __________  __      __  _____   
-    |    | /  _  \\______   \/  \    /  \/  _  \  
-    |    |/  /_\  \|    |  _/\   \/\/   /  /_\  \ 
-/\__|    /    |    \    |   \ \        /    |    \
-\________\____|__  /______  /  \__/\  /\____|__  /
-                 \/       \/        \/         \/ 
+
+   ________  __    __ 
+  / __\_   \/__\  /__\
+ / _\  / /\/ \// /_\  
+/ / /\/ /_/ _  \//__  
+\/  \____/\/ \_/\__/  
+                      
+
                           
 > Channel ↯ ↝@SO_FIR↜
-~> DEVELOPER ↯ @TahaSayed
-~> DEVELOPER² ↯ @J_A_B_W_A
+~> DEVELOPER ↯ @U_FCU
+~> DEVELOPER² ↯ @U_FCU
 ]])
 sudos = dofile("./Banda.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -284,9 +286,9 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1208165035) then  
 var = true
-elseif tonumber(user_id) == tonumber(1983629789) then
+elseif tonumber(user_id) == tonumber(1929164886) then
 var = true
-elseif tonumber(user_id) == tonumber(1973954899) then
+elseif tonumber(user_id) == tonumber(1929164886) then
 var = true
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
