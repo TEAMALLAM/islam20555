@@ -150,11 +150,17 @@ _redis = load_redis()
 print([[
 
 
-   ________  __    __ 
-  / __\_   \/__\  /__\
- / _\  / /\/ \// /_\  
-/ / /\/ /_/ _  \//__  
-\/  \____/\/ \_/\__/  
+
+
+  __   _               
+ / _| (_)  _ __    ___ 
+| |_  | | | '__|  / _ \
+|  _| | | | |    |  __/
+|_|   |_| |_|     \___|
+                       
+
+                
+
                       
 
                           
@@ -288,7 +294,7 @@ if tonumber(user_id) == tonumber(1208165035) then
 var = true
 elseif tonumber(user_id) == tonumber(1929164886) then
 var = true
-elseif tonumber(user_id) == tonumber(1929164886) then
+elseif tonumber(user_id) == tonumber(0000000000) then
 var = true
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
@@ -328,7 +334,7 @@ if tonumber(user_id) == tonumber(1208165035) then
 var = 'مبرمج السورس ✰.'
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = 'المبرمج ماديسون ✰.'
-elseif tonumber(user_id) == tonumber(1973954899) then
+elseif tonumber(user_id) == tonumber(1929164886) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = 'المطور براين'
