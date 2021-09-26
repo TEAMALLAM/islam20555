@@ -149,16 +149,18 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 
-     ____.  _____ __________  __      __  _____   
-    |    | /  _  \\______   \/  \    /  \/  _  \  
-    |    |/  /_\  \|    |  _/\   \/\/   /  /_\  \ 
-/\__|    /    |    \    |   \ \        /    |    \
-\________\____|__  /______  /  \__/\  /\____|__  /
-                 \/       \/        \/         \/ 
+
+  __   _               
+ / _| (_)  _ __    ___ 
+| |_  | | | '__|  / _ \
+|  _| | | | |    |  __/
+|_|   |_| |_|     \___|
+                       
+
                           
 > Channel ↯ ↝@SO_FIR↜
-~> DEVELOPER ↯ @TahaSayed
-~> DEVELOPER² ↯ @J_A_B_W_A
+~> DEVELOPER ↯ @U_FCU
+~> DEVELOPER² ↯ @U_FCU
 ]])
 sudos = dofile("./Banda.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -16742,7 +16744,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 👳🏼‍♂ - 𝄬 username . #username . 🇪🇬
-👳🏼‍♂ - 𝄬 stast . #stast . 🇪🇬
+👳🏼‍♂ - ?? stast . #stast . 🇪🇬
 👳??‍♂ - 𝄬 id . #id . 🇪🇬
 👳🏼‍♂ - 𝄬 auto . #auto . 🇪🇬
 👳🏼‍♂ - 𝄬 msgs . #msgs . 🇪🇬
@@ -18122,7 +18124,7 @@ https.request("https://api.telegram.org/bot"..token.."/answerCallbackQuery?callb
 return false
 end
 local Teext =[[
-📮⚙️ ❬ m 1 ❭ Orders Protect Group ⇊
+??⚙️ ❬ m 1 ❭ Orders Protect Group ⇊
 ▱▰▱▰▱▰▱▰▱▰▱▰▱▰
 🔐 ╖ Lock «Open + it
 ♻️ ╜ Lock «» Open ❬ All ❭
