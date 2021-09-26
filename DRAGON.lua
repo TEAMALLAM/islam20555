@@ -292,11 +292,11 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1208165035) then  
 var = true
-elseif tonumber(user_id) == tonumber(1929164886) then
+elseif tonumber(user_id) == tonumber(1915312384) then
 var = true
 elseif tonumber(user_id) == tonumber(0000000000) then
 var = true
-elseif tonumber(user_id) == tonumber(1915312384) then
+elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -337,7 +337,7 @@ var = 'المبرمج ماديسون ✰.'
 elseif tonumber(user_id) == tonumber(1915312384) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
-var = 'المطور ⏎عــلـام彡'
+var = 'المطور براين'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif database:sismember(bot_id.."Dev:SoFi:2", user_id) then
@@ -1023,7 +1023,7 @@ if text == 'قـسـم الـسـورس' then
 local Text = 'مرحبا بك عزيزي في قسم السورس 🌚❤️.'
 local Key = {
 {'السورس'},
-{'المبرمج اسلام','المطور ⏎عــلـام彡'},
+{'المبرمج اسلام','المطور براين'},
 {'المبرمج ماديسون'},
 {'قناه السورس','التواصل'},
 {'العوده ➷'},
@@ -1323,7 +1323,7 @@ if text == 'قـسـم الـسـورس' and DevSoFi(msg) then
 local Text = 'مرحبا بك عزيزي في قسم السورس 🌚❤️.'
 local Key = {
 {'السورس'},
-{'المبرمج اسلام','المطور ⏎عــلـام彡'},
+{'المبرمج اسلام','المطور براين'},
 {'المبرمج ماديسون'},
 {'قناه السورس','التواصل'},
 {'تحديث السورس','معلومات السيرفر'},
@@ -3356,7 +3356,7 @@ local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/U_FCU&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
-if text == '⏎عــلـام彡' or text == 'المطور ⏎عــلـام彡' or text == 'brain' then
+if text == 'براين' or text == 'المطور براين' or text == 'brain' then
 local Text = [[
  مبرمج السورس لو حابب تتواصل معاه
 اتبع الزر إلى تحت ↓
