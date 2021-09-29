@@ -288,7 +288,7 @@ if tonumber(user_id) == tonumber(1915312384) then
 var = true
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = true
-elseif tonumber(user_id) == tonumber(1915312384) then
+elseif tonumber(user_id) == tonumber(1265057352) then
 var = true
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
@@ -328,7 +328,7 @@ if tonumber(user_id) == tonumber(1208165035) then
 var = 'مبرمج السورس ✰.'
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = 'المبرمج ماديسون ✰.'
-elseif tonumber(user_id) == tonumber(1915312384) then
+elseif tonumber(user_id) == tonumber(1265057352) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = 'المطور براين'
