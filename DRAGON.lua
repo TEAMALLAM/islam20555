@@ -283,7 +283,7 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1915312384) then  
+if tonumber(user_id) == tonumber(2008293126) then  
 var = true
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = true
@@ -323,7 +323,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1208165035) then  
+if tonumber(user_id) == tonumber(2008293126) then  
 var = 'مبرمج السورس ✰.'
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = 'المبرمج ماديسون ✰.'
