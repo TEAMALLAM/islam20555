@@ -157,7 +157,6 @@ print([[
 |_|   |_| |_|     \___|
                        
 
-                          
 > Channel ↯ ↝@SO_FIR↜
 ~> DEVELOPER ↯ @U_FCU
 ~> DEVELOPER² ↯ @U_FCU
@@ -288,7 +287,7 @@ if tonumber(user_id) == tonumber(1915312384) then
 var = true
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = true
-elseif tonumber(user_id) == tonumber(1265057352) then
+elseif tonumber(user_id) == tonumber(2008293126) then
 var = true
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
@@ -328,7 +327,7 @@ if tonumber(user_id) == tonumber(1208165035) then
 var = 'مبرمج السورس ✰.'
 elseif tonumber(user_id) == tonumber(1983629789) then
 var = 'المبرمج ماديسون ✰.'
-elseif tonumber(user_id) == tonumber(1265057352) then
+elseif tonumber(user_id) == tonumber(2008293126) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = 'المطور براين'
@@ -16744,7 +16743,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 👳🏼‍♂ - 𝄬 username . #username . 🇪🇬
-👳🏼‍♂ - ?? stast . #stast . 🇪🇬
+👳🏼‍♂ - 𝄬 stast . #stast . 🇪🇬
 👳??‍♂ - 𝄬 id . #id . 🇪🇬
 👳🏼‍♂ - 𝄬 auto . #auto . 🇪🇬
 👳🏼‍♂ - 𝄬 msgs . #msgs . 🇪🇬
@@ -16752,7 +16751,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➭- 𝒔𝒕𝒂𓂅 #stast 𓍯. 💕
-➮- 𝐮𝐬𝐞𝐫𓂅 #username 𓍯. 💕
+➮- 𝐮??𝐞𝐫𓂅 #username 𓍯. 💕
 ➭- 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯. 💕
 ➭- 𝐢𝐝 𓂅 #id 𓍯. 💕
 ➭- 𝗖𝗛 - ↝@SO_FIR↜ ☽ 
@@ -18124,7 +18123,7 @@ https.request("https://api.telegram.org/bot"..token.."/answerCallbackQuery?callb
 return false
 end
 local Teext =[[
-??⚙️ ❬ m 1 ❭ Orders Protect Group ⇊
+📮⚙️ ❬ m 1 ❭ Orders Protect Group ⇊
 ▱▰▱▰▱▰▱▰▱▰▱▰▱▰
 🔐 ╖ Lock «Open + it
 ♻️ ╜ Lock «» Open ❬ All ❭
