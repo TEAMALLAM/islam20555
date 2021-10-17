@@ -149,16 +149,18 @@ _redis = load_redis()
 --------------------------------------------------------------------------------------------------------------
 print([[
 
-     ____.  _____ __________  __      __  _____   
-    |    | /  _  \\______   \/  \    /  \/  _  \  
-    |    |/  /_\  \|    |  _/\   \/\/   /  /_\  \ 
-/\__|    /    |    \    |   \ \        /    |    \
-\________\____|__  /______  /  \__/\  /\____|__  /
-                 \/       \/        \/         \/ 
+
+  __   _               
+ / _| (_)  _ __    ___ 
+| |_  | | | '__|  / _ \
+|  _| | | | |    |  __/
+|_|   |_| |_|     \___|
+                       
+
                           
 > Channel ↯ ↝@SO_FIR↜
-~> DEVELOPER ↯ @TahaSayed
-~> DEVELOPER² ↯ @J_A_B_W_A
+~> DEVELOPER ↯ @UU_f7
+~> DEVELOPER² ↯ @UU_f7
 ]])
 sudos = dofile("./Banda.lua") 
 SUDO = tonumber(sudos.SUDO)
@@ -324,9 +326,9 @@ end
 function Rutba(user_id,chat_id)
 if tonumber(user_id) == tonumber(1208165035) then  
 var = 'مبرمج السورس ✰.'
-elseif tonumber(user_id) == tonumber(2096660722) then
+elseif tonumber(user_id) == tonumber(0000000000) then
 var = 'المبرمج ماديسون ✰.'
-elseif tonumber(user_id) == tonumber(1915312384) then
+elseif tonumber(user_id) == tonumber(2096660722) then
 var = 'المبرمج اسلام ✰.'
 elseif tonumber(user_id) == tonumber(1859656976) then
 var = 'المطور براين'
