@@ -5747,7 +5747,7 @@ if result.id_ == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
-if result.id_ == tonumber(1973954899) then
+if result.id_ == tonumber(2096660722) then
 send(msg.chat_id_, msg.id_, " ☽ لا يمكنك حظر مالك السورس \n")
 return false 
 end
@@ -5836,7 +5836,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
+if tonumber(result.sender_user_id_) == tonumber(2096660722) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع كتم مالك السورس عام")
 return false 
 end
