@@ -5697,7 +5697,7 @@ if tonumber(result.sender_user_id_) == tonumber(1208165035) then
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
-if tonumber(result.sender_user_id_) == tonumber(1973954899) then  
+if tonumber(result.sender_user_id_) == tonumber(2096660722) then  
 send(msg.chat_id_, msg.id_, " ☽ لا تسطيع حظر مبرمج السورس عام")
 return false 
 end
